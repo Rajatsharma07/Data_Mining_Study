@@ -12,7 +12,7 @@ Step-1: Extracted the StackOverflow data using StackAPI. Extracted 100,000 Quest
 
 Step-2: Randomly sampled 25,000 posts in order to ease the computation.
 
-Step-3: Implementation of Data Preprocessing Pipeline - This includes the conversion of extracted unstructured data (25,000 posts) into 16,795 cleaned rows. In addition, Duplicate deletion, URLs removal, lowercase conversion, HTML tag and stop word removal, and Effective Lemmatization operations were performed to clean up the extracted data.
+Step-3: Implementation of Data Preprocessing Pipeline - This includes the conversion of extracted unstructured data (25,000 posts) into 16,795 cleaned rows. In addition, Removal of contents of Code tags, Duplicate deletion, URLs removal, lowercase conversion, HTML tag and stop word removal, and Effective Lemmatization operations were performed to clean up the extracted data.
 
 Step-4: Implementation of Topic Modelling (Execution of Latent Dirichlet Allocation) - This includes the conversion of preprocessed data into Term-Frequency Matrix and training the LDA algorithm. We ran LDA for 2000 Gibbs sampling iterations, after which got the optimal results.
 
