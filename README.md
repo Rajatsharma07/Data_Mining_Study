@@ -16,8 +16,11 @@ Step-3: Implementation of Data Preprocessing Pipeline - This includes the conver
 
 Step-4: Implementation of Topic Modelling (Execution of Latent Dirichlet Allocation) - This includes the conversion of preprocessed data into Term-Frequency Matrix and training the LDA algorithm. We ran LDA for 2000 Gibbs sampling iterations, after which got the optimal results.
 
-Step-5: Highlighted the most important keywords from the extracted topics. Please refer to attached file "Extracted_Topics.docx" for more details.
+Step-5: Highlighted the most important keywords from the extracted topics. For more information, see the results at the end of this file.
 
 Step-6: Qualitative Analysis: Used Grounded Theory to assign a label to the output of each K topic of the LDA algorithm.
 
 Step-7: Quantitative Analysis: Calculated the percentage share of each K-Topic in the StackOverflow extracted posts.
+
+## Results:
+![Results](https://user-images.githubusercontent.com/45923445/90177793-585f2d00-ddab-11ea-8959-82afec6b5d0c.PNG)
